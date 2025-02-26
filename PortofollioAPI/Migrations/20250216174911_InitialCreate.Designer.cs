@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PortofollioAPI.Data;
+using PortfolioAPI.Data;
 
 #nullable disable
 
-namespace PortofollioAPI.Migrations
+namespace PortfolioAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250216174911_InitialCreate")]

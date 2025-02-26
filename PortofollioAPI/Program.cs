@@ -2,11 +2,11 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using PortofollioAPI.Data;
-using PortofollioAPI.Helpers;
-using PortofollioAPI.Repositories;
-using PortofollioAPI.Repositories.Interfaces;
-using PortofollioAPI.Services;
+using PortfolioAPI.Data;
+using PortfolioAPI.Helpers;
+using PortfolioAPI.Repositories;
+using PortfolioAPI.Repositories.Interfaces;
+using PortfolioAPI.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);

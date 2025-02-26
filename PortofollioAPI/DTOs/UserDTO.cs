@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PortofollioAPI.DTOs
+namespace PortfolioAPI.DTOs
 {
     public class CreateUserDTO
     {

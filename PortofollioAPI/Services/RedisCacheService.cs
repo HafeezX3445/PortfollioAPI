@@ -1,7 +1,7 @@
 ﻿using StackExchange.Redis;
 using Newtonsoft.Json;
 
-namespace PortofollioAPI.Services
+namespace PortfolioAPI.Services
 {
     public class RedisCacheService
     {

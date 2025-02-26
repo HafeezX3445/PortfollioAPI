@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace PortofollioAPI.Migrations
+namespace PortfolioAPI.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

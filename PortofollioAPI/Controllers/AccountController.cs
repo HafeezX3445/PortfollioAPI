@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using PortofollioAPI.DTOs;
-using PortofollioAPI.Helpers;
-using PortofollioAPI.Models;
-using PortofollioAPI.Repositories.Interfaces;
+using PortfolioAPI.DTOs;
+using PortfolioAPI.Helpers;
+using PortfolioAPI.Models;
+using PortfolioAPI.Repositories.Interfaces;
 
-namespace PortofollioAPI.Controllers
+namespace PortfolioAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

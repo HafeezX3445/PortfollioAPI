@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PortofollioAPI.Data;
-using PortofollioAPI.DTOs;
-using PortofollioAPI.Models;
-using PortofollioAPI.Repositories.Interfaces;
-using PortofollioAPI.Services;
+using PortfolioAPI.Data;
+using PortfolioAPI.DTOs;
+using PortfolioAPI.Models;
+using PortfolioAPI.Repositories.Interfaces;
+using PortfolioAPI.Services;
 
-namespace PortofollioAPI.Repositories
+namespace PortfolioAPI.Repositories
 {
     public class UserRepository(ApplicationDbContext _context, RedisCacheService cacheService) : IUser
     {

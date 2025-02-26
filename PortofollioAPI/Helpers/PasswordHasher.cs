@@ -1,4 +1,4 @@
-﻿namespace PortofollioAPI.Helpers
+﻿namespace PortfolioAPI.Helpers
 {
     public class PasswordHasher
     {

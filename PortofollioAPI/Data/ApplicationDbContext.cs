@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PortofollioAPI.Models;
+using PortfolioAPI.Models;
 
-namespace PortofollioAPI.Data
+namespace PortfolioAPI.Data
 {
     public class ApplicationDbContext : DbContext
     {

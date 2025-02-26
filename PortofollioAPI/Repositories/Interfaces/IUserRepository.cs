@@ -1,7 +1,7 @@
-﻿using PortofollioAPI.DTOs;
-using PortofollioAPI.Models;
+﻿using PortfolioAPI.DTOs;
+using PortfolioAPI.Models;
 
-namespace PortofollioAPI.Repositories.Interfaces
+namespace PortfolioAPI.Repositories.Interfaces
 {
     public interface IUser
     {

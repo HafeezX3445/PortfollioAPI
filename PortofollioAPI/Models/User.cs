@@ -1,4 +1,4 @@
-﻿namespace PortofollioAPI.Models
+﻿namespace PortfolioAPI.Models
 {
     public class User
     {

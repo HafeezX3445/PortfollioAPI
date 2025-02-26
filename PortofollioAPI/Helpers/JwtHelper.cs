@@ -2,9 +2,9 @@
 using System.Text;
 using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
-using PortofollioAPI.Models;
+using PortfolioAPI.Models;
 
-namespace PortofollioAPI.Helpers
+namespace PortfolioAPI.Helpers
 {
     public class JwtHelper(IConfiguration configuration)
     {

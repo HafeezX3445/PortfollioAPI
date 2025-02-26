@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortofollioAPI", "PortofollioAPI\PortofollioAPI.csproj", "{4BCD415F-D0D6-4232-ACDA-984AEDABEB89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfollioAPI", "PortofollioAPI\PortfollioAPI.csproj", "{4BCD415F-D0D6-4232-ACDA-984AEDABEB89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
