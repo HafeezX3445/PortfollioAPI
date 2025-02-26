@@ -5,6 +5,7 @@ namespace PortfolioAPI.Services
 {
     public class RedisCacheService
     {
+        int i;
         private readonly IDatabase _cache;
 
         public RedisCacheService(IConfiguration configuration)
