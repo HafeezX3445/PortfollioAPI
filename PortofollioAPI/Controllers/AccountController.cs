@@ -57,5 +57,12 @@ namespace PortofollioAPI.Controllers
             }
 
         }
+
+        [HttpGet("GetAllUsers")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await userRepo.GetAllUsersAsync();
+            return Ok(users);
+        }
     }
 }

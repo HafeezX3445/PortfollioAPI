@@ -6,6 +6,7 @@ using PortofollioAPI.Data;
 using PortofollioAPI.Helpers;
 using PortofollioAPI.Repositories;
 using PortofollioAPI.Repositories.Interfaces;
+using PortofollioAPI.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,8 +18,11 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
+
+builder.Services.AddSingleton<RedisCacheService>();
 builder.Services.AddSingleton<JwtHelper>();
 builder.Services.AddScoped<IUser, UserRepository>();
+
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -32,8 +36,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ClockSkew = TimeSpan.Zero
         };
     });
-
-
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
